@@ -1,0 +1,16 @@
+body {
+    background: orange;
+}
+
+li {
+    border: 1px solid palevioletred;
+}
+
+#maria {
+    color: deeppink;
+}
+
+.importante {
+    text-decoration: line-through lightcoral;
+}
+

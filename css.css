@@ -1,0 +1,22 @@
+h1 {
+    color: rgba(11,199,100, 1);
+    border: 3px solid papayawhip;
+}
+
+li {
+    color: darkslategrey;
+}
+
+h4 {
+    color: rgba(11,199,100,0.5);
+}
+
+div {
+    background: rgba(11,199,100, 0.1);
+}
+
+body {
+    background: url(https://i.imgur.com/mWOy4ex.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

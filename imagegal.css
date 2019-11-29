@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    font-family: quicksand;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+img {
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin: 1.66%;
+}
+
+body {
+    background-color: darkgrey;
+}

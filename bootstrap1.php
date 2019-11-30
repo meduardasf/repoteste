@@ -81,10 +81,11 @@
     <p>mais uma coisa pro jumbotron</p>
     <button class="btn btn-success">clicavel</button>
 </div>
+<?php $email = $_POST['campo_texto']; ?>
 <form>
     <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+        <input type="email" class="form-control" id="exampleInputEmail1" value="<?php echo $email; ?>" placeholder="Email">
     </div>
     <div class="form-group">
         <label for="exampleInputPassword1">Password</label>

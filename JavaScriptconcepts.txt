@@ -1,0 +1,85 @@
+JAVA SCRIPT
+
+             5 PRIMITIVE DATATYPES
+
+    1- NUMBERS
+       inteiros: 4
+       decimais: 9.3
+       negativos: -10
+
+       java script nao diferencia!!!
+       voce pode fazer matematica usando as operacoes (usando os simbolos + - / *)
+       pode tambem fazer o remaining: voce coloca um numero % divisor, e o java script vai
+       fazer a divisao dos numeros e te dar a quantidade de numero que sobra. 
+       ex: 15%5 resultado sera 0 pois da pra dividir sem sobras
+           15%2 resultado sera 1 pois da pra dividir 7 pra cada e sobra 1 pra chegar em 15
+
+    2- STRINGS
+       "Hello World"
+       "43"
+
+       se voce escrever com ' ou com " ele vai entender a mesma coisa e te devolver
+       a mesma coisa de volta.
+       se voce escreve algo em duas strings com um sinal de adicao entre elas, a resposta
+       vem toda junta. ex: "maria" + "eduarda" a resposta será "mariaeduarda"
+       se voce quiser escrever algo com aspas, precisa de um escape character antes de cada
+       aspa. ex: "she said \"goodbye!\" "
+       lenght property: se vc escrever algo e depois das aspas escrever .lenght o js 
+       te mostra a quantidade de caracteres que o que vc escreveu tem. 
+       ex: "i just want you to know that...".length 
+       existe tbm a capacidade de procurar um caractere especial que voce determina
+       ex: "dizer o que eu posso dizer"[4]
+            a resposta será r pois ele comeca a contar a partir de 0
+        
+
+    3- BOOLEANS
+       true
+       false
+
+    4- NULL AND UNDEFINED (sao values)
+       null: significa literalmente NADA.
+
+       undefined: uma variavel que ainda nao esta declarada
+         
+                 
+-----------------------------------------------------------------------------------------------
+
+                                 VARIABLES
+
+
+variables sao containers que guardam values.
+seguem esse padrao: var yourvariablehere = yourvalue;
+
+exemplos: var name = "Maria";
+          var secretNumber = 12;
+          var isAdorable = true;
+
+
+elas tem que ser escrita no modelo camelCase: primeira letra minuscula e as outras maiusculas   
+
+------------------------------------------------------------------------------------------------
+
+                               METHODS
+
+
+clear ()                         -limpa o console 
+
+alert ("sua mensagem aqui")       -cria um popup de alerta (lembrar que ao colocar numeros nao precisa de aspas)
+
+prompt
+
+console.log
+
+                      
+
+ ----------------------------------------------------------------------------------------------------------------
+
+                        LOGICAL OPERATORS
+
+
+
+&&  significa  AND  (precisa que todas as sentencas estejam corretas)
+||  significa OR    (apenas uma precisa ser true pro resultado dar true)
+!   significa NOT   exemplo: o que esta verdadeiro dentro dos parenteses com um ! na frente vira falso, e o que esta falso vira verdadeiro!
+
+                     
